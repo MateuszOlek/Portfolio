@@ -1,0 +1,42 @@
+body{
+  position: relative;
+  background-image: url("https://imageshack.com/a/img923/6871/Q8IyaV.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item{
+  width: 1200px;
+  background-color: rgba(200,200,200,0.85);
+  margin: 20px;
+}
+.text-main{
+  font-size: 25px;
+  font-family: "Monstarrat", sans-serif;
+}
+.img-60{
+  width: 60%;
+}
+h2{
+  text-align:center;
+  font-family:'Monstarrat',sans-serif;
+  font-size:60px;
+}
+.butt{
+  color: black;
+  margin: 5px;
+}
+.image{
+  width:90%;
+  height:auto;
+  margin:15px;
+  max-width:400px;
+}
